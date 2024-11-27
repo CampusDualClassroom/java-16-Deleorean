@@ -10,10 +10,14 @@ public class Exercise16 {
         plane.takeOff();
         plane.fly();
         plane.land();
+        plane.stop();
+        plane.maintenance();
         System.out.println("");
         tractor.start();
         tractor.forward();
         tractor.backward();
+        tractor.stop();
+        tractor.maintenance();
 
     }
 
